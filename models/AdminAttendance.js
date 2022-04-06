@@ -2,7 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const adminAttendanceSchema = new Schema(
   {
-    timelimit: {
+    timeLimit: {
       type: Number,
       required: true,
       max: 30,
